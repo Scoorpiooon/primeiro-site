@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  height: 100vh;
+  font-family: 'Yantramanav', sans-serif;
+  overflow: hidden;
+
+}
+
+root {
+  --list-size: 1.3rem;
+  --main-color: rgb(28, 28, 219);
+
+}
+
+body::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  left: -5rem;
+  top: 38rem;
+  border-left: 500px solid blue;
+  border-top: 500px solid transparent;
+  border-bottom: 500px solid transparent;
+
+}
+
+
+
+.profile:hover {
+  transition: 0.5s;
+  width: 16rem;
+  height: 16rem;
+
+
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.title {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 4.5rem;
+
+}
+
+.text {
+  font-size: 1.4rem;
+
+
+}
+
+.profile {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 25%;
+  box-shadow: 0.5px 0.5px 3px 0.4px rgb(0, 0, 0.3);
+
+}
+
+ul li i {
+  font-size: 1.6rem;
+  color: rgb(28, 28, 219);
+  padding-right: 0.5rem;
+
+}
+
+ul li {
+  display: inline-flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: 2rem;
+  font-size: var(--list-size);
+  left: -1.1rem;
+
+  border: 0.13rem solid rgb(28, 28, 219);
+  border-radius: 0.3rem;
+
+  padding: 0.6rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(76, 143, 231);
+  font-size: 1.1rem;
+
+}
+
+ul li a:hover {
+  transition: 0.4s;
+  font-size: 1.4rem;
+  --list-size: 1.5rem;
+
+}
+
+ul li div {
+  font-size: 1.1rem;
+  padding-right: 0.3rem;
+
+}
+
+
+footer div {
+  position: absolute;
+
+  left: 89%;
+  bottom: 2%;
+
+  padding-right: 0.5rem;
+}
+
+/* Desenvolvido por Gabriel A. (28/11/2021)*/
